@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Salidas de construcción
+dist/
+*.local
+
+# Archivos de producción
+.env
+.env.local
+.env.*.local
+
+# Editor de configuración
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Directorios de pruebas
+coverage/
+
+# Cache de Vite
+.vite/
+
+# Cache de paquete de gestor
+.npm/
+.yarn/
+
+# Otros
+*.tmp
+*.swp
